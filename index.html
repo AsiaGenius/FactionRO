@@ -15,6 +15,7 @@
   <script src="http://semantic-ui.com/javascript/library/jquery.min.js"></script>
   <script src="http://semantic-ui.com/dist/semantic.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+  
 
   <script>
   $(document)
@@ -104,10 +105,10 @@
 
 <!-- Page Contents -->
 <div class="pusher">
-  <div class="ui inverted vertical masthead center aligned segment superiorinfi">
+  <div class=" ui inverted vertical masthead center aligned segment superiorinfi">
 
-    <div class="ui container">
-      <div class="ui large secondary inverted pointing menu menusobreposto">
+    <div class="ui container" >
+      <div class="ui large secondary inverted pointing menu menusobreposto" >
         <a class="toc item">
           <i class="sidebar icon"></i>
         </a>
@@ -155,12 +156,13 @@
       </div>
     </div>
 
-    <div class="ui text container">
-      <h1 class="ui inverted header">
-        FactionRO
+    <div class="ui text container" id="scene">
+      <h1 class="ui inverted header" >
+        FactionRO		
+		
       </h1>
       <h1>Escolha o seu lado nessa batalha!</h2>
-      <div class="ui huge primary button">Cadastre-se <i class="right arrow icon"></i></div>
+      <div class="ui huge primary button layer" data-depth="1.00">Cadastre-se <i class="right arrow icon"></i></div>
     </div>
 
   </div>
@@ -344,7 +346,7 @@
     </div>
   </div>
 </div>
-
+<script src="deploy/parallax.js"></script>
 <script>
  $('#popuplogin')
   .dropdown()
@@ -356,6 +358,8 @@ $('#popuplogins')
 
 $('#videoyou').embed();
 
+var scene = document.getElementById('scene');
+var parallax = new Parallax(scene);
 </script>
 
 </body>
