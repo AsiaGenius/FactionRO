@@ -96,7 +96,7 @@ body {
     }
 
 	.superiorinfi{
-	background-image:url('http://static.zerochan.net/Hunter.full.143189.jpg')!important;
+	//background-image:url('http://static.zerochan.net/Hunter.full.143189.jpg')!important;
 	background-size:100%!important;
 	background-repeat:no-repeat!important;
 	}
@@ -110,4 +110,12 @@ body {
 .stilizando{
 	color: #d2d2d2!important;
     margin-top:6px !important;
+}
+
+.topinho{
+	position: absolute!important;
+}
+.topinhocorta{
+overflow: hidden!important;
+margin-top: -15px!important;
 }
