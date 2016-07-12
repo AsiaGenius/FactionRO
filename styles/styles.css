@@ -122,10 +122,10 @@ background: transparent!important;
 }
 
 .regulabordas{
-		width: 113%!important;
-		height: 151%!important;
-	    max-width: 150%!important;
-		left: -5%!important;
-		top: -5%!important;
-		z-index:-1;
+width: 107%!important;
+    height: 107%!important;
+    max-width: 150%!important;
+    left: -5%!important;
+    top: -5%!important;
+    z-index: -1;
 }
