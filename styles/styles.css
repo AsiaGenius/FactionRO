@@ -141,6 +141,13 @@ width: 107%!important;
     top: -2%!important;
     z-index: -1;
 }
+
+.capinha{
+	background-image:url('../images/image.png')!important;
+	background-repeat:no-repeat!important;
+	background-size:100%!important;
+}
+
 .bird {
   position: absolute;
   top: 150px !important;

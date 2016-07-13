@@ -107,9 +107,9 @@
 <!-- Page Contents -->
 <div class="pusher" id="scene">
   <div class=" ui inverted vertical masthead center aligned segment topinhocorta">
-	<img class="ui fluid image topinho regulabordas layer" data-depth="0.20" src="http://static.zerochan.net/Hunter.full.143189.jpg">
-  <img src="images/1.png" class="layer bird" data-depth="0.15"/>
-  <img src="images/2.png" class="layer bird1" data-depth="0.13"/>
+	<img class="ui fluid image topinho regulabordas layer" data-depth="0.10" src="http://static.zerochan.net/Hunter.full.143189.jpg">
+  <img src="images/1.png" class="layer bird" data-depth="1.15"/>
+  <img src="images/2.png" class="layer bird1" data-depth="1.13"/>
   <img src="images/3.png" class="layer bird2" data-depth="0.11"/>
   <img src="images/4.png" class="layer bird3" data-depth="0.09"/>
   <img src="images/5.png" class="layer bird4" data-depth="0.07"/>
@@ -175,12 +175,12 @@
 
   </div>
 
-  <div class="ui vertical stripe segment">
+  <div class="ui vertical stripe segment capinha" >
     <div class="ui middle aligned stackable grid container">
 
 	<div class="row">
         <div class="center aligned column ">
-          <h1>Novos sistemas e nova interface!</h2>
+          <h1>Novos sistemas e nova interface!</h1>
 		  <h4>Descubra novos sistemas e grandes implementações acessando nosso fórum! </h4>
         </div>
       </div>
@@ -191,20 +191,41 @@
 
 		<div class="eight wide column">
 
+<div class="ui styled accordion">
+  <div class="title active">
+    <i class="dropdown icon"></i>
+    Super Equilibrado
+  </div>
+  <div class="content active">
+    <p class="transition visible" style="display: block !important;">Possuímos o grande foco de preservar o estilo de jogo do usuário; PVE, PVP, GVG etc. Não importa o seu estilo de jogo, no factionRO é possível!</p>
+  </div>
+  <div class="title">
+    <i class="dropdown icon"></i>
+    Sistemas únicos e exclusivos
+  </div>
+  <div class="content">
+    <p class="transition hidden">Contamos com incríveis sistemas de pescaria, mineração e caça. Também possuímos sistema de quests diárias com premiações e rank!</p>
+  </div>
+  <div class="title">
+    <i class="dropdown icon"></i>
+    Interface avançada
+  </div>
+  <div class="content">
+    <p class="transition hidden">Com nossa incrível interface avançada, possuímos a mais nova BG no Brasil! Também contamos com o Livro de Grupo, uma ferramenta importante!</p>
+    <p class="transition hidden">A nova interface visa ajudar o jogador a ter um melhor desempenho em sua aventura no FactionRO.</p>
+  </div>
+    <div class="title">
+    <i class="dropdown icon"></i>
+    Equipe Capacitada
+  </div>
+  <div class="content">
+    <p class="transition hidden">Nossa equipa de desenvolvedores capacitados, tanto em desenvolvimento web como no desenvolvimento do nosso emulador, estão 24 horas analisando o que melhor podem oferecer. Afinal, temos um emulador privado!</p>
+  </div>
+</div>
 
 
 
-
-		<h3 class="ui header">Balanceado e competitivo.</h3>
-          <h4>No factionRO você encontra uma vasta gama de possibilidades. Quests, PVP com 8 modos, BG com 6 modos, rank MVP, missões diárias e muito mais!</h4>
-
-		<h3 class="ui header">Opções de Jogo</h3>
-          <h4>Curte matar MVP? Prefere fazer quests pra valer? Ou gosta daquele PVP desafiador? Não importa, o modo de jogo é você quem faz!</h4>
-
-
-		<h3 class="ui header">Equipe Avançada</h3>
-          <h4>Não apenas uma staff, mas uma equipe desenvolvedora, que inclusive possui o próprio projeto de desenvolvimento privado de emulador (jRO).</h4>
-        </div>
+		</div>
 
 		<div class="six wide right floated column">
 			<div id="videoyou" class="ui embed" data-url="https://www.youtube.com/embed/86efD2Bxtr0" data-placeholder="images/bg.jpg"></div>
@@ -215,7 +236,7 @@
       </div>
       <div class="row">
         <div class="center aligned column">
-          <a class="ui huge button">Saiba Mais!</a>
+          <a class="ui huge button">Conheça nosso projeto!</a>
         </div>
       </div>
     </div>
@@ -362,6 +383,9 @@
 
 <script src="deploy/parallax.js"></script>
 <script>
+$('.ui.accordion')
+  .accordion()
+;
  $('#popuplogin')
   .dropdown()
 ;
