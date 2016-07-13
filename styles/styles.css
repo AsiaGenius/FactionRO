@@ -1,4 +1,4 @@
-body { 
+body {
   margin:0;
   padding:0;
   perspective: 1px;
@@ -112,10 +112,10 @@ h4{
 	background-size:100%!important;
 	background-repeat:no-repeat!important;
 	}
-	
-	
+
+
 .menusobreposto{
-	
+
 	background-color: rgba(0, 0, 0, 0.43)!important;
 }
 
@@ -140,4 +140,52 @@ width: 107%!important;
     left: -5%!important;
     top: -2%!important;
     z-index: -1;
+}
+.bird {
+  position: absolute;
+  top: 150px !important;
+    left: 80px !important;
+    width: 30px;
+}
+.bird1 {
+  position: absolute;
+  top: 150px !important;
+    left: 120px !important;
+    width: 40px;
+}
+.bird {
+  position: absolute;
+  top: 150px !important;
+    left: 160px !important;
+    width: 50px;
+}
+.bird1 {
+  position: absolute;
+  top: 160px !important;
+    left: 200px !important;
+    width: 60px;
+}
+.bird2 {
+  position: absolute;
+  top: 170px !important;
+    left: 240px !important;
+    width: 70px;
+}
+.bird3 {
+  position: absolute;
+  top: 180px !important;
+    left: 280px !important;
+    width: 80px;
+}
+.bird4 {
+  position: absolute;
+  top: 190px !important;
+    left: 320px !important;
+    width: 90px;
+}
+.bird5 {
+  position: absolute;
+  top: 200px !important;
+    left: 360px !important;
+    width: 100px;
 }
