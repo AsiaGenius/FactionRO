@@ -1,14 +1,26 @@
 body { 
   margin:0;
   padding:0;
-	perspective: 1px;
-	transform-style: preserve-3d;
+  perspective: 1px;
+  transform-style: preserve-3d;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: Nunito;
 }
 
+
+spam ,h4, h3, h2,h1,a,div 
+{ 
+  font-family: 'Arima Madurai', cursive!important;
+}
+
+h4{
+	font-weight: 100!important;
+}
+
+.mobilemenu{
+	    display: none!important;
+}
 
 .hidden.menu {
       display: none;
@@ -126,6 +138,6 @@ width: 107%!important;
     height: 107%!important;
     max-width: 150%!important;
     left: -5%!important;
-    top: -5%!important;
+    top: -2%!important;
     z-index: -1;
 }
