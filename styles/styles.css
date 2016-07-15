@@ -155,49 +155,59 @@ width: 68%!important;
 
 .bird {
   position: absolute;
-  top: 150px !important;
-    left: 80px !important;
-    width: 30px;
+  top: 260px !important;
+  left: 380px !important;
+  width: 6px;
 }
 .bird1 {
   position: absolute;
-  top: 110px !important;
-    left: 120px !important;
-    width: 13px;
-}
-.bird {
-  position: absolute;
-  top: 150px !important;
-    left: 540px !important;
-    width: 25px;
-}
-.bird1 {
-  position: absolute;
-  top: 160px !important;
-  left: 520px !important;
-  width: 8px;
+  top: 280px !important;
+left: 410px !important;
+width: 10px;
 }
 .bird2 {
   position: absolute;
-  top: 170px !important;
-  left: 520px !important;
-  width: 10px;
+  top: 290px !important;
+    left: 450px !important;
+    width: 7px;
 }
 .bird3 {
   position: absolute;
-  top: 220px !important;
-  left: 500px !important;
-  width: 12px;
+  top: 300px !important;
+    left: 520px !important;
+    width: 5px;
 }
 .bird4 {
   position: absolute;
-  top: 210px !important;
-  left: 480px !important;
-  width: 15px;
+  top: 305px !important;
+    left: 525px !important;
+    width: 8px;
 }
 .bird5 {
   position: absolute;
-  top: 200px !important;
-  left: 460px !important;
-  width: 20px;
+  top: 335px !important;
+    left: 500px !important;
+    width: 10px;
+}
+.bird6 {
+  position: absolute;
+  top: 310px !important;
+    left: 480px !important;
+    width: 13px;
+}
+.bird7 {
+  position: absolute;
+  top: 280px !important;
+    left: 400px !important;
+    width: 10px;
+}
+.bird8 {
+  position: absolute;
+  top: 310px !important;
+    left: 430px !important;
+    width: 11px;
+}
+.ui.container {
+    position: relative;
+    z-index: 20;
 }
