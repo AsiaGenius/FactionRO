@@ -9,8 +9,8 @@ body {
 }
 
 
-spam ,h4, h3, h2,h1,a,div 
-{ 
+spam ,h4, h3, h2,h1,a,div
+{
   font-family: 'Arima Madurai', cursive!important;
 }
 
@@ -161,43 +161,43 @@ width: 68%!important;
 }
 .bird1 {
   position: absolute;
-  top: 150px !important;
+  top: 110px !important;
     left: 120px !important;
-    width: 40px;
+    width: 13px;
 }
 .bird {
   position: absolute;
   top: 150px !important;
-    left: 160px !important;
-    width: 50px;
+    left: 540px !important;
+    width: 25px;
 }
 .bird1 {
   position: absolute;
   top: 160px !important;
-    left: 200px !important;
-    width: 60px;
+  left: 520px !important;
+  width: 8px;
 }
 .bird2 {
   position: absolute;
   top: 170px !important;
-    left: 240px !important;
-    width: 70px;
+  left: 520px !important;
+  width: 10px;
 }
 .bird3 {
   position: absolute;
-  top: 180px !important;
-    left: 280px !important;
-    width: 80px;
+  top: 220px !important;
+  left: 500px !important;
+  width: 12px;
 }
 .bird4 {
   position: absolute;
-  top: 190px !important;
-    left: 320px !important;
-    width: 90px;
+  top: 210px !important;
+  left: 480px !important;
+  width: 15px;
 }
 .bird5 {
   position: absolute;
   top: 200px !important;
-    left: 360px !important;
-    width: 100px;
+  left: 460px !important;
+  width: 20px;
 }
