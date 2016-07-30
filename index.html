@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
   <link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
   <script>
-  $(document)
+    $(document)
     .ready(function() {
 
       // fix menu when passed
@@ -47,15 +47,41 @@
   </script>
 </head>
 <body>
+<style>
+#video-wrap {
+    left: 0;
+    top: 0;
+}
+#video {
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;  
+}
+
+video {
+    position: absolute;
+    min-height: 50%;
+    min-width: 38%;
+    top: 100%;
+    left: 0%;
+    right: 44px;
+    bottom: 100%;
+    margin: auto;
+    height: auto;
+}
+
+
+</style>
 
 <!-- Following Menu -->
 <div class="ui large top econdary inverted pointing fixed hidden menu mobilemenu">
   <div class="ui container">
-    <a class="active item">Início</a>
-    <a class="item">Informações</a>
+    <a class="active item">Home</a>
     <a class="item">Download</a>
-    <a class="item">Donate</a>
-	<a class="item">Comunidade</a>
+    <a class="item">Game Info</a>
+    <a class="item">Community</a>
+	<a class="item">Chat</a>
     <div class="right menu stilizando">
 
 
@@ -63,7 +89,7 @@
 	  <div class="ui inline dropdown" id="popuplogin">
     <div class="text">
       <img class="ui avatar image" src="images/pp.png">
-      Painel
+      Login/Register
     </div>
     <i class="dropdown icon"></i>
     <div class="menu">
@@ -73,15 +99,15 @@
       </div>
       <div class="item">
 
-        Registro
+        Register
       </div>
       <div class="item">
 
-        Comunidade
+        Community
       </div>
       <div class="item">
 
-        Ajuda
+        Help
       </div>
 
     </div>
@@ -94,12 +120,12 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-  <a class="active item">Início</a>
-  <a class="item">Informações</a>
+  <a class="active item">Home</a>
   <a class="item">Download</a>
-  <a class="item">Donate</a>
-  <a class="item">Comunidade</a>
-  <a class="item">Registro</a>
+  <a class="item">Game Info</a>
+  <a class="item">Community</a>
+  <a class="item">Chat</a>
+  <a class="item">Register</a>
   <a class="item">Login</a>
 </div>
 
@@ -126,11 +152,11 @@
         <a class="toc item">
           <i class="sidebar icon"></i>
         </a>
-        <a class="active item">Início</a>
-  <a class="item">Informações</a>
+        <a class="active item">Home</a>
   <a class="item">Download</a>
-  <a class="item">Donate</a>
-  <a class="item">Comunidade</a>
+  <a class="item">Game Info</a>
+  <a class="item">Community</a>
+  <a class="item">Chat</a>
 
         <div class="right item">
 
@@ -337,6 +363,41 @@
       </div>
     </div>
   </div>
+  
+  
+<div class="ui four column grid prints " id="video-wrap">
+
+
+            <video autoplay loop id="video">
+		<source src="https://d2v9y0dukr6mq2.cloudfront.net/video/preview/abstract-rainbow_wjpctkdes__PM.mp4" type="video/mp4">
+	</video>
+
+ <div class="row centered printsA"><h1>Um Mundo Novo!</h1></div>
+  <div class="column">
+    <div class="ui segment">
+      <img class="ui massive image" src="images/bg.jpg">
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui segment">
+      <img class="ui massive image" src="images/bg.jpg">
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui segment">
+      <img class="ui massive image" src="images/bg.jpg">
+    </div>
+  </div>
+  
+   <div class="column">
+    <div class="ui segment">
+      <img class="ui massive image" src="images/bg.jpg">
+    </div>
+  </div>
+  
+  <div class="row centered printsA"></div>
+  
+</div>
 
   <div class="ui vertical stripe segment feednoticias">
 
@@ -592,26 +653,26 @@
     <div class="ui container">
       <div class="ui stackable inverted divided equal height stackable grid">
         <div class="three wide column">
-          <h4 class="ui inverted header">About</h4>
+          <h4 class="ui inverted header">Help</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Sitemap</a>
-            <a href="#" class="item">Contact Us</a>
-            <a href="#" class="item">Religious Ceremonies</a>
-            <a href="#" class="item">Gazebo Plans</a>
+            <a href="#" class="item">Community</a>
+            <a href="#" class="item">Facebook</a>
+            <a href="#" class="item">E-mail</a>
+            <a href="#" class="item">Skype</a>
           </div>
         </div>
         <div class="three wide column">
-          <h4 class="ui inverted header">Services</h4>
+          <h4 class="ui inverted header">Fast Links</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Banana Pre-Order</a>
-            <a href="#" class="item">DNA FAQ</a>
-            <a href="#" class="item">How To Access</a>
-            <a href="#" class="item">Favorite X-Men</a>
+            <a href="#" class="item">Download</a>
+            <a href="#" class="item">Infos</a>
+            <a href="#" class="item">Discordapp</a>
+            <a href="#" class="item">Login</a>
           </div>
         </div>
         <div class="seven wide column">
-          <h4 class="ui inverted header">Footer Header</h4>
-          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+          <h4 class="ui inverted header">Gravity</h4>
+          <p>© Copyright 2015-2016 odinsRO trademarks and images belongs to their respective owners. Ragnarok Online and all related contents are all property of Gravity.</p>
         </div>
       </div>
     </div>

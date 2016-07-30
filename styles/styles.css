@@ -226,3 +226,21 @@ width: 10px;
   top: 0;
   left: 0;
 }
+
+.prints{
+	
+    position: relative;
+    overflow: hidden;
+		    background: #e0e1e2;
+    margin-top: 0%!important;
+	margin-button: 4%!important;
+}
+
+
+.printsA{
+	margin-top: 2%!important;
+}
+
+.printsA h1{
+    color: white;
+}
